@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.form {
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+}
+
+h1 {
+  justify-self: center;
+}
+
+form div {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.invalid,
+input:invalid {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
